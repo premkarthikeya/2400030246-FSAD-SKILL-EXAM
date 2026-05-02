@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Card Beans -->
+    <bean id="card1" class="com.klu.lms.Card">
+        <property name="cardNo" value="LIB-2026-001"/>
+        <property name="issueDate" value="2026-01-01"/>
+        <property name="validTill" value="2026-12-31"/>
+    </bean>
+
+    <bean id="card2" class="com.klu.lms.Card">
+        <property name="cardNo" value="LIB-2026-002"/>
+        <property name="issueDate" value="2026-01-02"/>
+        <property name="validTill" value="2026-06-30"/>
+    </bean>
+
+    <!-- Member Beans -->
+    <bean id="member1" class="com.klu.lms.Member">
+        <property name="memberId" value="2400032541"/>
+        <property name="name" value="Rakesh"/>
+        <property name="phone" value="9876543210"/>
+        <property name="card" ref="card1"/>
+    </bean>
+
+    <bean id="member2" class="com.klu.lms.Member">
+        <property name="memberId" value="2400030979"/>
+        <property name="name" value="Praval"/>
+        <property name="phone" value="9123456780"/>
+        <property name="card" ref="card2"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="
+ http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ <bean id="order1" class="com.student.model.Order">
+ <property name="orderId" value="ORD-101"/>
+ <property name="customerName" value="Prakash"/>
+ <property name="discountRate" value="5"/>
+ <property name="items">
+ <list>
+ <bean class="com.student.model.OrderItem">
+ <property name="product" value="Notebook"/>
+ <property name="qty" value="4"/>
+ <property name="price" value="50"/>
+ </bean>
+ <bean class="com.student.model.OrderItem">
+ <property name="product" value="Pen"/>
+ <property name="qty" value="10"/>
+ <property name="price" value="10"/>
+ </bean>
+ <bean class="com.student.model.OrderItem">
+ <property name="product" value="USB Drive"/>
+ <property name="qty" value="1"/>
+ <property name="price" value="499"/>
+ </bean>
+ </list>
+ </property>
+ </bean>
+</beans>

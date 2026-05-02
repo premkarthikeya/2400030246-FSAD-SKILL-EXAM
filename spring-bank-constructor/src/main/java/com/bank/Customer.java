@@ -1,0 +1,18 @@
+package com.bank;
+
+public class Customer {
+
+    private String customerId;
+    private String name;
+    private Account account;
+
+    public Customer(String customerId, String name, Account account) {
+        this.customerId = customerId;
+        this.name = name;
+        this.account = account;
+    }
+
+    public void print() {
+        System.out.println(customerId + " | " + name + " | " + account);
+    }
+}

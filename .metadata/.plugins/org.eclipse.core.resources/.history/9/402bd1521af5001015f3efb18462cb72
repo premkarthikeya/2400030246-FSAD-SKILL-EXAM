@@ -1,0 +1,15 @@
+package com.student.model;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+public class MainApp {
+
+	public static void main(String[] args) {
+	ctx =new ClassPathXmlApplicationContext("applicationContext.xml");
+	StudentCourses a = (StudentCourses) ctx.getBean("sc1");
+	StudentCourses b = (StudentCourses) ctx.getBean("sc2");
+	a.print();
+	b.print();
+
+	}
+
+}

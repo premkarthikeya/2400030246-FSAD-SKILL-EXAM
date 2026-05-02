@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="
+ http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ <bean id="sc1" class="com.student.model.StudentCourses">
+ <property name="rollNo" value="23CS001"/>
+ <property name="name" value="Naveen"/>
+ <property name="courses">
+ <list>
+ <value>Java</value>
+ <value>Core Spring</value>
+ <value>SQL Basics</value>
+ <value>Git</value>
+ </list>
+ </property>
+ </bean>
+ <bean id="sc2" class="com.student.model.StudentCourses">
+ <property name="rollNo" value="23CS002"/>
+ <property name="name" value="Meghana"/>
+ <property name="courses">
+ <list>
+ <value>Python</value>
+ <value>Data Science Intro</value>
+ <value>Core Spring</value>
+ </list>
+ </property>
+ </bean>
+</beans>

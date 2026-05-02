@@ -1,0 +1,29 @@
+package jdbcdemo;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+public class CrudOperations {
+	private static final String URL="jdbc:mysql://student_demo?useSSL=false&serverTimezone=UT&allowPublicKeyRetrival=true";
+	private static final String USER="root";
+	private static final String PASS="root@123";
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String sql="Insert into students(name,email)values(?,?)";
+		try(Connection con=DriverManager.getConnection(URL,USER,PASS);PreparedStatement ps=con.prepareStatement(sql))
+		{
+			ps.setString(1,"Prem");
+			ps.setString(2,"p143@kluniversity.in");
+			int row=ps.executeUpdate();
+			System.out.println("Inserted Rows="+row);
+			
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+
+	}
+
+}

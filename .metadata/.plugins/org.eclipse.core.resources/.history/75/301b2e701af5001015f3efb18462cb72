@@ -1,0 +1,16 @@
+package com.student.model;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+public class MainApp {
+	public static void Main(String[] Args)
+	{
+		ApplicationContext ctx =
+				 new ClassPathXmlApplicationContext("applicationContext.xml");
+		Memeber m1 = (Memeber) ctx.getBean("member1");
+		Memeber m2 = (Memeber) ctx.getBean("member2");
+		m1.print();
+		m2.print();
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.student.app;
+import java.util.List;
+public class StudentCourses {
+ private String rollNo;
+ private String name;
+ private List<String> courses;
+ public void print() {
+	 System.out.println(rollNo+" | "+name+" | courses="+courses.size());
+	 for(String c: courses) System.out.println(" - "+c);
+	 }
+	}

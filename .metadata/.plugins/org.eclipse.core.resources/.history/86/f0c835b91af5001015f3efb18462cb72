@@ -1,0 +1,23 @@
+package com.student.model;
+
+import java.util.List;
+public class Order {
+ private String orderId;
+ private String customerName;
+ private double discountRate; // percent
+ private List<OrderItem> items;
+ // setters
+ public void printInvoice() {
+ System.out.println("Order: "+orderId+" | Customer: "+customerName);
+ double total = 0;
+ for (OrderItem it: items) {
+ double line = it.lineTotal();
+ total += line;
+ System.out.println(it.getProduct()+" x"+it.getQty()+" @"+it.getPrice()+" = "+line);
+ }
+ double discount = total * (discountRate/100.0);
+ System.out.println("Total: "+total);
+ System.out.println("Discount("+discountRate+"%): "+discount);
+ System.out.println("Payable: "+(total-discount));
+ }
+}

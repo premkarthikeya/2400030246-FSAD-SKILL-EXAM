@@ -1,0 +1,6 @@
+package com.student.model;
+
+public class Card {
+	private String cardNo, issueDate, validTill;
+
+}

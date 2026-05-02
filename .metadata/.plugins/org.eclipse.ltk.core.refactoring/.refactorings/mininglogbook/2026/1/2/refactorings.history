@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;mininglogbook&apos;&#x0D;&#x0A;- Original project: &apos;mininglogbook&apos;&#x0D;&#x0A;- Original element: &apos;mininglogbook/src/main/java/com.minops.dao&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.minops.dao" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.minops" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1767664818481" subPackages="false" version="1.0"/>
+</session>

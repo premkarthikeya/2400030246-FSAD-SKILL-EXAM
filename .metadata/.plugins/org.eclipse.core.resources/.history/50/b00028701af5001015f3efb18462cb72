@@ -1,0 +1,11 @@
+package com.student.model;
+
+public class Memeber {
+	private String memberId, name, phone;
+	 private Card card;
+	 // setters
+	 public void print() {
+	 System.out.println(memberId+" | "+name+" | "+phone+" | "+card);
+	 }
+
+}

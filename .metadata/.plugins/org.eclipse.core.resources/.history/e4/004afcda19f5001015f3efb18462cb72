@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="
+ http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ <bean id="acc1" class="com.student.model.Account">
+ <property name="accountNo" value="SBIN000123"/>
+ <property name="branch" value="Vijayawada"/>
+ <property name="balance" value="25000"/>
+ </bean>
+ <bean id="acc2" class="com.student.model.Account">
+ <property name="accountNo" value="HDFC000456"/>
+ <property name="branch" value="Guntur"/>
+ <property name="balance" value="42000"/>
+ </bean>
+ <bean id="cust1" class="com.student.model.Customer">
+ <constructor-arg value="C101"/>
+ <constructor-arg value="Sandeep"/>
+ <constructor-arg ref="acc1"/>
+ </bean>
+ <bean id="cust2" class="com.student.model.Customer">
+ <constructor-arg value="C102"/>
+ <constructor-arg value="Divya"/>
+ <constructor-arg ref="acc2"/>
+ </bean>
+</beans>

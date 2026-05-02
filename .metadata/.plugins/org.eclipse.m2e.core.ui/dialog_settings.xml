@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\FullStackFolder\springfirstdemo\src\main\java\com\klu\student\Address.java"/>
+			<item value="C:\Users\premk\git\repository\mininglogbook"/>
+			<item value="D:\FullStackFolder\hql-hcql-student-demo\src\main\resources\hibernate.cfg.xml"/>
+			<item value="D:\FullStackFolder\HibernetMySQLCRUD\src\main\java\com\example\main\App.java"/>
+			<item value="D:\FullStackFolder\jdbcdemo\pom.xml"/>
+			<item value="D:\FullStackFolder\jdbcdemo\src\main\java\jdbcdemo\CrudOperations.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.student"/>
+			<item value="com.klu.springdemorepo"/>
+			<item value="springdemo"/>
+			<item value="com.wareops"/>
+			<item value="com.mineops"/>
+			<item value="com.mining"/>
+			<item value="com.demo"/>
+			<item value="hospital_demo"/>
+			<item value="com.hibernetdemo"/>
+			<item value="com.hibernatedemo"/>
+			<item value="courses"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="spring-order-invoice"/>
+			<item value="spring-course-list"/>
+			<item value="spring-bank-constructor"/>
+			<item value="spring-library-member"/>
+			<item value="spring-student-address"/>
+			<item value="springfirstdemo"/>
+			<item value="spring_demo"/>
+			<item value="wareops-lite"/>
+			<item value="mininglogbook"/>
+			<item value="miningopt"/>
+			<item value="hql-hcql-student-demo"/>
+			<item value="hospital_db"/>
+			<item value="HibernetMySQLCRUD"/>
+			<item value="HibernateMySQLCRUD"/>
+			<item value="courses"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="528"/>
+		<item key="x" value="528"/>
+		<item key="y" value="80"/>
+	</section>
+</section>

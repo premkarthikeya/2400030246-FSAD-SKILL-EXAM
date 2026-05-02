@@ -1,0 +1,16 @@
+package com.student.app;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+public class MainApp {
+	public static void Main(String[] Args)
+	{
+		ApplicationContext ctx =
+				 new ClassPathXmlApplicationContext("applicationContext.xml");
+		Customer c1 = (Customer) ctx.getBean("cust1");
+		Customer c2 = (Customer) ctx.getBean("cust2");
+		c1.print();
+		c2.print();
+	}
+}
+	

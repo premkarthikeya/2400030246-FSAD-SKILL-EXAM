@@ -1,0 +1,11 @@
+package com.student.model;
+
+public class OrderItem {
+	 private String product;
+	 private int qty;
+	 private double price;
+	 public String getProduct() { return product; }
+	 public int getQty() { return qty; }
+	 public double getPrice() { return price; }
+	 public double lineTotal() { return qty * price; }
+	}
